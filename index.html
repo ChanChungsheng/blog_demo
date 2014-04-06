@@ -1,0 +1,13 @@
+---
+layout: doc
+title: 湛忠胜的博客
+---
+<ul>
+
+　　　　{% for post in site.posts %}
+
+　　　　　　<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+
+　　　　{% endfor %}
+
+　　</ul>
